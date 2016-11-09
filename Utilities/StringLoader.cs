@@ -7,7 +7,7 @@ using Windows.ApplicationModel.Resources;
 
 namespace Utilities
 {
-    class StringLoader
+    public class StringLoader
     {
         public static string LoadString(string key)
         {
