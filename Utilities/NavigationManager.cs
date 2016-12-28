@@ -8,12 +8,13 @@ using Windows.UI.Xaml.Controls;
 
 namespace Utilities
 {
-    class NavigationManager
+    public class NavigationManager
     {
-        public static void NavigateTo(Type destinationPage)
+
+        public static void Navigate<T>()
         {
             var frame = Window.Current.Content as Frame;
-            frame.Navigate(destinationPage);
+            frame.Navigate(typeof(T));
             Window.Current.Activate();
         }
     }

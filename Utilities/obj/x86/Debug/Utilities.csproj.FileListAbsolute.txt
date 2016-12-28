@@ -1,0 +1,17 @@
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\bin\x86\Debug\Utilities.dll
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\bin\x86\Debug\Utilities.pdb
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\bin\x86\Debug\Utilities.pri
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\Utilities.csprojResolveAssemblyReference.cache
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\Utilities.dll
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\Utilities.pdb
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\priconfig.xml
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\layout.resfiles
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\resources.resfiles
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\pri.resfiles
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\qualifiers.txt
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Vittorio\Source\Repos\Utilities\Utilities\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
