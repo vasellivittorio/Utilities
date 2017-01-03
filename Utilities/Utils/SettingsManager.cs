@@ -7,9 +7,9 @@ using Windows.Storage;
 
 namespace Utilities
 {
-    class SettingsManager
+    public class SettingsManager
     {
-
+        
         public static void Save<T>(string key, T value)
         {
             var values = ApplicationData.Current.RoamingSettings.Values;
@@ -29,6 +29,16 @@ namespace Utilities
             var values = ApplicationData.Current.RoamingSettings.Values;
             return values.ContainsKey(key);
         }
-        
+
+        public static bool IsFirstStart()
+        {
+            if (ContainsKey(SettingsKeys.FIRSTSTART))
+            {
+                return false;
+            }
+            Save<bool>(SettingsKeys.FIRSTSTART, true);
+            return true;
+        }
+
     }
 }

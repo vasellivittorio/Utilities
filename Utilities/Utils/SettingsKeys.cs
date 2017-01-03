@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VPassword.Utilities
+namespace Utilities
 {
     class SettingsKeys
     {
-        public static string MAINPASSWORD = "mainpassword";
+        public static string FIRSTSTART = "firstStart";
     }
 }
