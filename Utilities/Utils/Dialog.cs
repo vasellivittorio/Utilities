@@ -9,7 +9,7 @@ using Windows.UI.Popups;
 
 namespace Utilities
 {
-    class Dialog
+    public class Dialog
     {
         private static bool showing = false; 
 
