@@ -17,5 +17,15 @@ namespace Utilities
             frame.Navigate(typeof(T));
             Window.Current.Activate();
         }
+
+        public static void GoBack(int times = 1)
+        {
+            var frame = Window.Current.Content as Frame;
+            for(int i = 0; i < times;i++)
+            {
+                frame.GoBack();
+            }
+            Window.Current.Activate();
+        }
     }
 }
