@@ -108,6 +108,7 @@
     <None Include="project.lock.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\DateToStringConverter.cs" />
     <Compile Include="Utils\AESEncryption.cs" />
     <Compile Include="Utils\Dialog.cs" />
     <Compile Include="Utils\IAPManager.cs" />
@@ -122,9 +123,7 @@
     <Compile Include="Utils\WindowsHelloManager.cs" />
     <EmbeddedResource Include="Properties\Utilities.rd.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Converters\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
