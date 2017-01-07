@@ -57,7 +57,7 @@ namespace Utilities
 
         public static bool IsFirstStart()
         {
-            if (ContainsKey(SettingsKeys.FIRSTSTART))
+            if (ContainsKeyLocal(SettingsKeys.FIRSTSTART))
             {
                 return false;
             }
