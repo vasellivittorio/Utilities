@@ -108,7 +108,7 @@
     <None Include="project.lock.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Converters\DateToStringConverter.cs" />
+    <Compile Include="Converters\StringFormatter.cs" />
     <Compile Include="Utils\AESEncryption.cs" />
     <Compile Include="Utils\Dialog.cs" />
     <Compile Include="Utils\IAPManager.cs" />
