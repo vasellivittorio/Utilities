@@ -115,7 +115,6 @@
     <Compile Include="Utils\NavigationManager.cs" />
     <Compile Include="Utils\PasswordStrenghtCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils\SettingsKeys.cs" />
     <Compile Include="Utils\SettingsManager.cs" />
     <Compile Include="Utils\StorageManager.cs" />
     <Compile Include="Utils\StringLoader.cs" />
