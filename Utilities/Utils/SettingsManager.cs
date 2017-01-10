@@ -24,7 +24,7 @@ namespace Utilities
             Save<T>(key, value, values);
         }
 
-        public static void Save<T>(string key, T value, IPropertySet values)
+        private static void Save<T>(string key, T value, IPropertySet values)
         {
             if (values.ContainsKey(key))
                 values.Remove(key);
