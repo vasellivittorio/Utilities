@@ -57,11 +57,11 @@ namespace Utilities
 
         public static bool IsFirstStart()
         {
-            if (ContainsKeyLocal(SettingsKeys.FIRSTSTART))
+            if (ContainsKeyLocal("firstStart"))
             {
                 return false;
             }
-            SaveLocal<bool>(SettingsKeys.FIRSTSTART, true);
+            SaveLocal<bool>("firstStart", true);
             return true;
         }
 
