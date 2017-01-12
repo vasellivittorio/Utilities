@@ -108,6 +108,7 @@
     <None Include="project.lock.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\CollapseIfEqualToFloat.cs" />
     <Compile Include="Converters\StringFormatter.cs" />
     <Compile Include="Utils\AESEncryption.cs" />
     <Compile Include="Utils\Dialog.cs" />
